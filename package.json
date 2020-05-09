@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Application to bootstrap a complete end-to-end React product with Redux & Webpack",
   "main": "index.js",
-  "repository": "git@github.com:ArunRamachandran/ProductHub-React-Redux-BoilerPlate.git",
+  "repository": "git@github.com:git@github.com:ArunRamachandran/Bootstrap-web-app.git",
   "author": " ",
   "license": "MIT",
   "scripts": {
