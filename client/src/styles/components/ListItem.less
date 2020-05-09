@@ -1,0 +1,76 @@
+.list-item-wrapper {
+    flex: 1 1 20%;
+
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 1%;
+    transition: transform .2s;
+
+    .list-item-header {
+        display: inline-block;
+        width: 100%;
+        background: #DCDCDC;
+        border-bottom: 1px solid rgba(0,0,0,.125);
+        height: 36%;
+    }
+
+    .list-item-body {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .item-desc-ids {
+        display: flex;
+        padding: 5px;
+        p {
+            margin: auto;
+        }
+        
+        .item-status {
+            display: inline-block;
+            padding: 4px 8px;
+            font-weight: 600;
+            line-height: 20px;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            background-color: #6a737d;
+            border-radius: 3px;
+            font-size: 13px;
+            font-family: auto;
+        }
+        
+        .active {
+            background-color: #4078c0
+        }
+
+        .completed {
+            background-color: #498a2d;
+        }
+
+        .new {
+            background-color: #6e5494;
+        }
+    }
+
+    .item-desc-geo {
+        display: flex;
+        padding-top: 3%;
+        flex-direction: row;
+
+        .item-shipping-origin {
+            padding-left: 12%;
+        }
+
+        .item-shipping-icon {
+            margin: auto;
+        }
+    }
+}
+
+.list-item-wrapper:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

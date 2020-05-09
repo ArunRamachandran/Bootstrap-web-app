@@ -8,7 +8,7 @@ const APP_DIR = path.resolve(__dirname, './src')
 
 module.exports = {
     entry: {
-        main: ['./src/index.js', './src/styles/main.less'],
+        main: ['./client/src/index.js', './client/src/styles/main.less'],
     },
     mode: "development",
     output: {
